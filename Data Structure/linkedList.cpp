@@ -59,7 +59,7 @@ int main(){
 		case 'r' : 
 			ll->removeFront();
 			break;
-		case 'p' :
+		case 'p' : 
 			ll->print();
 			break;
 		}
