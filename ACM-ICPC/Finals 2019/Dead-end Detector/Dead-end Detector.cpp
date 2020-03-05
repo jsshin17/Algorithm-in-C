@@ -63,7 +63,7 @@ int main() {
         dfs(tree_rep[i]);
     
     
-    
+     
     for (int v = 0; v < n; v++) {
         for (int i = 0; i < e[v].size(); i++) {
             if (((!visited[v]) && (visited[e[v][i]])) || ((inside_tree[v]) && (e[v].size() == 1)))
